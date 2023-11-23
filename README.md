@@ -1,110 +1,43 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Cycle To Work 
 
-Welcome USER_NAME,
+## Website Aim 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The purpose of this website is promote cycling to work in Glasgow. Many people are afraid of the traffic, or don't know the best routes to work. This website aims to create a platform where users can sign up, plan and share their best routes to work.  
+It also contains a shop for bike assecoires, bike clothing and bikes  (B2C). 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## User Stories
 
-## Gitpod Reminders
+| Epic           | User Story Title      | User Story                                                                                                                                                        | MoSCoW Prioritization |
+| -------------- | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
+| Authentication | Sign Up               | As a website user, I can sign up using a form so that I can create an order of a bike assecoire from the shop                                                     | Must-have             |
+| Authentication | Log In                | As a website user, I can log in from the main page using my credentials so that I can create an order or see status of my previous orders                         | Must-have             |
+| Rating         | Rate Product          | As an authenticated website user, I can rate my previous orders so that I can express my opinion about an item to other users                                     | Must-have             |
+| Rating         | Update Product Rating | As an authenticated website user, I can update or delete my ratings  so that I can edit and delete my previous rating after I have given it when I change my mind | Must-have             |
+| Rating         | Approve Rating        | As an site admin, I can approve product rating  so that I can ensure fair ratings and reduce fake ratings                                                         | Must-have             |
+| Checkout       | Shopping Bag          | As a website user, I can add products to my shopping bag so that I can keep looking for more products before I checkout and pay                                   | Must-have             |
+| Checkout       | Update Shopping Bag   | As a website user, I can edit items in my shopping bag so that I can change the order if I change my mind and want to change the order                            | Must-have             |
+| Product Search | Search by Category    | As a website user, I can search the products in the shop by Category so that I can easily and fast find the product I was searching for                           | Must-have             |
+| Product Search | Order By Price        | As a website user, I can order the product list by Price so that I can find the cheapest option available for the current category                                | Must-have             |
+| Route Planner  | Store Routes          | As a website user, I can add coordinates for my home and work place so that I can plan a cycle route to work using the Route Planner page                         | Could-have            |
+| Route Planner  | Publish Routes        | As a website user, I can change my route to work from private to public so that other cyclists can see the routes                                                 | Could-have            |
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+Note: to be continued - ideally we want **60%** of **must-have** stories for this iteration
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## Preliminary Mockups
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+<table>
+    <tr>
+        <th> Page </td>
+        <th> Mockup </td>
+    </tr>
+     <tr>
+        <td> Landing Page </td>
+        <td> <img src="./assets/images/landing-page.png"; alt="preview image of the mockup for landing page" >  </td>
+    </tr>
+      <tr>
+        <td> Shop </td>
+        <td> <img src="./assets/images/store.png"; alt="preview image of the mockup for store" >  </td>
+    </tr>
+</table>
