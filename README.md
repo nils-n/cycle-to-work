@@ -18,8 +18,12 @@ It also contains a shop for bike assecoires, bike clothing and bikes  (B2C).
 | Checkout       | Update Shopping Bag   | As a website user, I can edit items in my shopping bag so that I can change the order if I change my mind and want to change the order                            | Must-have             |
 | Product Search | Search by Category    | As a website user, I can search the products in the shop by Category so that I can easily and fast find the product I was searching for                           | Must-have             |
 | Product Search | Order By Price        | As a website user, I can order the product list by Price so that I can find the cheapest option available for the current category                                | Must-have             |
+| Product Search | Suggest Categories    | As a website user, I can see recommended/corrected search results so that I can still find my product even if I type it wrong                                     | Could-have             |
 | Route Planner  | Store Routes          | As a website user, I can add coordinates for my home and work place so that I can plan a cycle route to work using the Route Planner page                         | Could-have            |
 | Route Planner  | Publish Routes        | As a website user, I can change my route to work from private to public so that other cyclists can see the routes                                                 | Could-have            |
+| Blog           | Publish Article       | As a site admin, I can publish an article so that other cyclists learn about tips + tricks about cycling in Glasgow                                               | Could-have            |
+| Blog           | Add Comments          | As a webiste user, I can add comments to an article to express my opinion and to give tips to other cyclists and start a discussion                               | Could-have            |
+| Blog           | Approve Comments      | As a site admin, I can approve comments so that users don't see inappropriate content if the comment was malicious                                                | Could-have            |
 
 
 Note: to be continued - ideally we want **60%** of **must-have** stories for this iteration
