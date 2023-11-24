@@ -2,8 +2,9 @@
 
 ## Website Aim 
 
-The purpose of this website is promote cycling to work in Glasgow. Many people are afraid of the traffic, or don't know the best routes to work. This website aims to create a platform where users can sign up, plan and share their best routes to work.  
-It also contains a shop for bike assecoires, bike clothing and bikes  (B2C). 
+The purpose of this website is promote cycling to work in Glasgow. Many people are afraid of the traffic, or don't know the best routes to work. This website aims to create value to the users (with the aim to increase its Google Ranking) by creating a platform where users can sign up, plan and share their best routes to work, read a blog about cycling in Glasgow, and add comments to the articles. 
+
+A shop for bike assecoires, bike clothing and bikes (B2C) is strategically placed on the website to create sales.  
 
 ## User Stories
 
