@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "accounts",
+    "compressor",  # for flowbite CSS components
 ]
 
 MIDDLEWARE = [
@@ -138,3 +139,9 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # For CustomUser based on https://learndjango.com/tutorials/django-custom-user-model
 LOGIN_REDIRECT_URL = "home"
 LOGOUT_REDIRECT_URL = "home"
+
+
+# for flowbite CSS components https://flowbite.com/docs/getting-started/django/ 
+COMPRESS_ROOT = BASE_DIR / 'static'
+COMPRESS_ENABLED = True
+STATICFILES_FINDERS = ('compressor.finders.CompressorFinder',)
