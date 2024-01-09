@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "accounts",
     "compressor",  # for flowbite CSS components
+    "crispy_forms",
+    "crispy_tailwind",
 ]
 
 MIDDLEWARE = [
@@ -141,7 +143,11 @@ LOGIN_REDIRECT_URL = "home"
 LOGOUT_REDIRECT_URL = "home"
 
 
-# for flowbite CSS components https://flowbite.com/docs/getting-started/django/ 
-COMPRESS_ROOT = BASE_DIR / 'static'
+# for flowbite CSS components https://flowbite.com/docs/getting-started/django/
+COMPRESS_ROOT = BASE_DIR / "static"
 COMPRESS_ENABLED = True
-STATICFILES_FINDERS = ('compressor.finders.CompressorFinder',)
+STATICFILES_FINDERS = ("compressor.finders.CompressorFinder",)
+
+# for crispy tailwind forms
+CRISPY_ALLOWED_TEMPLATE_PACKS = "tailwind"
+CRISPY_TEMPLATE_PACK = "tailwind"
